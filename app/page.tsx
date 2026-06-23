@@ -2,6 +2,8 @@ import fs from "fs";
 import path from "path";
 import ArticleSection from "./components/ArticleSection";
 
+export const revalidate = 0;
+
 interface Article {
   id: number;
   title: string;
